@@ -1,0 +1,423 @@
+html {
+  height:100%;
+  width:100%;
+  background-color:#dfdfdf;
+}
+*
+{
+  margin:0 auto;
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header {
+  height:40cap;
+  margin-top: 10px;
+  background-position:center;
+  background-size: cover;
+  text-align: center;
+  max-width: 100%;
+  background-image: url("innovation.jpeg");
+}
+.text {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+  font-style: fantasy;
+  text-shadow: 2px 2px 5px red;
+  color:white;
+}
+.flex-container
+{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 300px;
+  background-color: cornflowerblue;
+  padding-bottom:10px;
+}
+
+#space
+{
+  padding-right: 20px;
+  padding-top:10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.link {
+  color: white;
+  padding-top:30px;
+  padding-bottom:30px;
+  transition: .5s;
+}
+.link:hover {
+  color: grey;
+  padding-top:30px;
+  padding-bottom:30px;
+  
+}
+.box {
+  background-color: white; 
+  margin-top:10px;
+  width:85pc;
+  height:75pc;
+  box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.SubTitle
+{
+  font-size: 40px;
+  text-align: Center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 40px;
+  text-shadow: 2px 2px 5px grey;
+
+}
+.subText
+{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+}
+#PhotoGallery {
+  background-color: #dfdfdf;
+}
+.image {
+ 
+border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  width:300px;
+  height:250px;
+}
+.text1
+{
+   
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;  
+  
+}
+.flex-container-text
+{
+  display: inline-block; 
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 10px;
+margin-left: 115px;  
+  margin-top: 50px;
+  transition:.7s;
+  
+}
+.flex-container-text:hover
+{
+  display: inline-block; 
+    vertical-align: top;
+    border: 5px solid black;
+    border-radius: 10px;
+  margin-left: 115px;  
+    margin-top: 50px;
+  background-color: grey;
+}
+.flex-container-text2
+{
+  display: inline-block; 
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 10px;
+margin-left: 290px;  
+  margin-top: 50px;
+  transition: .5s;
+
+}
+.flex-container-text2:hover
+{
+  display: inline-block; 
+  vertical-align: top;
+  border: 5px solid black;
+  border-radius: 10px;
+margin-left: 290px;  
+  margin-top: 50px;
+   background-color: grey;
+
+}
+.flex-container-text3
+{
+  display: inline-block; 
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 10px;
+  margin-left: 140px;  
+    margin-top: 50px;
+  transition: .5s;
+ 
+}
+.flex-container-text3:hover
+{
+  display: inline-block; 
+    vertical-align: top;
+    border: 5px solid black;
+    border-radius: 10px;
+  margin-left: 140px;  
+    margin-top: 50px;
+  background-color: grey;
+}
+#Home{
+   background-color: #dfdfdf;
+}
+.box1 {
+  background-color: white; 
+  margin-top:100px;
+  width:85pc;
+  height:78pc;
+  box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.subText2
+{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-left: 8vw;
+  margin-right:8vw;
+  
+}
+.SubTitle2
+{
+  font-size: 40px;
+  text-align: Center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 70px;
+  text-shadow: 2px 2px 5px grey;
+
+}
+.img{
+  margin-top: 50px;
+  width:70pc;
+  height:600px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+}
+#TopAttractions
+{
+  background-color: white;
+  height: 85pc;
+  max-width: 100%;  
+  margin-top: 10px;
+
+}
+.flex-container-text4
+{
+  margin-top: 50px;
+  display: inline-block; 
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 10px;
+  width: 40pc;
+  height: 33pc;
+  padding:0;
+  transition: .5s;
+
+}
+.flex-container-text4:hover {
+  margin-top: 50px;
+  display: inline-block; 
+    vertical-align: top;
+    border: 10px solid black;
+    border-radius: 10px;
+  width: 40pc;
+  height: 33pc;
+  padding:0;
+  background-color:grey;
+}
+
+.img2 {
+  margin-top:20px;
+  width:23pc;
+  height:14pc;
+display:flex;
+flex-direction: row;
+justify-content: center;
+   border-radius: 10px;
+}
+.text3 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;  
+  font-size: 30px;
+  margin-left: 3vw;
+}
+.subText3
+{
+  font-size: 14px;
+  color: black; 
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 30px;
+  margin-left: 3vw;
+  margin-right:3vw;
+}
+.flex-container2
+{
+ display:flex;
+  flex-direction: row;
+  justify-content:center;
+  flex:wrap;
+}
+#foodGuide{
+  background-color: white;
+  height: 80pc;
+  max-width: 100%;  
+  margin-top: 10px;
+}
+.flex-container-text5
+{
+  margin-top: 50px;
+  display: inline-block; 
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 10px;
+  width: 50pc;
+  height: 13.5pc;
+  padding:0;
+  margin-left:23vw;
+}
+.text4{
+  color:blue; 
+  margin-top:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;  
+  font-size: 20px;
+  text-align: center;
+}
+.link-container{
+  margin-top: 20px;
+  border: 2px solid blue;
+  color:blue;
+  border-radius:3px;
+  text-decoration: 0;
+  width: 100px;
+  height: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  transition:.5s;
+}
+.link-container:hover {
+  margin-top: 20px;
+  border: 2px solid blue;
+  color:blue;
+  text-decoration: 0;
+  border-radius:3px;
+  width: 100px;
+  height: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  background-color:lightblue;
+}
+.subText4
+{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+ text-align:center;
+  
+}
+.subText5{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+   text-align:center;
+ 
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  
+  transform: translateY(0);
+  opacity: 1;
+
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    height:70cap;
+    width: 100%;
+
+  }
+  .img{
+    width:90%;
+    height:500px;
+  }
+  .box1 {
+    background-color: antiquewhite; 
+    width:100%;
+    height:65pc;
+  }
+  
+  #TopAttractions
+  {
+    background-color: antiquewhite;
+    max-width: 100%
+
+  }
+  #space {
+    font-size:10px;
+  }
+  .img2{
+    width:20pc;
+    height:12pc;
+  }
+  .flex-container
+  {
+    gap: 50px;
+  }
+  #foodGuide{
+    background-color: antiquewhite;
+    height:90pc;
+    margin-top: 10px;
+  }
+  .flex-container-text5
+  {
+ 
+    width: 30pc;
+    height: 17pc;
+    align-items: center;
+    margin-left:15vw;
+  }
+  .box {
+    background-color: antiquewhite; 
+    margin-top:10px;
+    width:100%;
+    height:75pc;
+  }
+  .image {
+
+    width:220px;
+    height:170px;
+  }
+  .flex-container-text2
+  {
+  margin-left: 120px;  
+
+  }
+  .flex-container-text
+  {
+  margin-left: 40px;  
+  }
+}
