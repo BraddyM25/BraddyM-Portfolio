@@ -59,10 +59,10 @@ function openGallery(src, title, desc) {
   document.getElementById('g-desc').textContent  = desc;
 
   if (src.endsWith('.mp4')) {
-    img.style.display   = 'none';
-    video.style.display = 'block';
-    vsrc.src = src;
-    video.load(); 
+      img.style.display   = 'none';
+      video.style.display = 'block';
+      video.src = src;  
+      video.load();
   } else {
     video.style.display = 'none';
     video.pause();
