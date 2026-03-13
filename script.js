@@ -33,8 +33,11 @@ function openModal(id) {
 }
 function closeModal(id) {
   document.getElementById(id).classList.remove('active');
-  document.body.style.overflow = '';
+  // Stop video if closing gallery modal
+  const video = document.getElementById('g-video');
+  if (video) video.pause();
 }
+
 function overlayClose(e, el) {
   if (e.target === el) { el.classList.remove('active'); document.body.style.overflow = ''; }
 }
@@ -48,9 +51,25 @@ document.addEventListener('keydown', e => {
 });
 
 function openGallery(src, title, desc) {
-  document.getElementById('g-img').src           = src;
+  const img   = document.getElementById('g-img');
+  const video = document.getElementById('g-video');
+  const vsrc  = document.getElementById('g-video-src');
+
   document.getElementById('g-title').textContent = title;
   document.getElementById('g-desc').textContent  = desc;
+
+  if (src.endsWith('.mp4')) {
+    img.style.display   = 'none';
+    video.style.display = 'block';
+    vsrc.src = src;
+    video.load(); 
+  } else {
+    video.style.display = 'none';
+    video.pause();
+    img.style.display   = 'block';
+    img.src = src;
+  }
+
   openModal('modal-gallery');
 }
 
@@ -66,6 +85,7 @@ function showStatus(type, msg) {
   el.className = 'form-status ' + type;
   el.textContent = msg;
 }
+
 
 async function submitContact() {
   const name  = document.getElementById('c-name').value.trim();
